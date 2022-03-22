@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest2.json",
-    "label" : "From Batum to Baghdad"
-  } ]
+  "items" : [ ]
 }
