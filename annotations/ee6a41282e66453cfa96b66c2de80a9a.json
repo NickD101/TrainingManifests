@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Shrine of Abdul Qadir",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Shrine of Abdul Qadir</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102170083",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-03-23T14:36:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648046207233",
+    "dcterms:modified" : "2022-03-23T14:36:47",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3422,3624,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3426.88803,3638.04405c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_920205b9-1d23-4a56-b123-f483af5f94da\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://e48d1fb4-2619-4f9b-8597-522cbd78f955"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Baghdad",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><strong>Baghdad</strong></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102170083",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-03-23T14:36:08",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648046168586",
+    "dcterms:modified" : "2022-03-23T14:36:08",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2696,3295,1214,546"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3732.14412,3760.94299c-112.1,45.83317 -270.23521,79.96358 -429.13673,79.92281v0v0c-158.90153,-0.04078 -297.33142,-31.96923 -429.13673,-79.92281c-131.80532,-47.95358 -183.03638,-121.02558 -177.75426,-192.95072c5.28212,-71.92514 67.07742,-142.70343 177.75426,-192.95072c110.67684,-50.24729 270.23521,-79.96358 429.13673,-79.92281c158.90153,0.04078 317.14621,29.83862 429.13673,79.92281c111.99052,50.08418 177.72689,120.4547 177.75426,192.95072c0.02737,72.49602 -65.65426,147.11755 -177.75426,192.95072z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_d15b5682-d2a4-4092-8f3f-82f5ea82d9d2\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://e48d1fb4-2619-4f9b-8597-522cbd78f955"
+    } ]
+  } ],
+  "@id" : "https://NickD101.github.io/TrainingManifests/annotations/ee6a41282e66453cfa96b66c2de80a9a.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
