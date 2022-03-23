@@ -1,0 +1,133 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest4.json",
+  "@type" : "sc:Manifest",
+  "label" : "From Batum to Baghdad",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/102170083/6875ad43eaaacc00f64fed8a641227ec/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "viewingHint" : "paged",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Tigris Corps"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "Cairo, 1918",
+      "@language" : "en"
+    }, {
+      "@value" : "Paris, environ 14eme siecle",
+      "@language" : "fr"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "A map, a photo and a page of text about Baghdad and surroundings",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "British Library",
+  "sequences" : [ {
+    "@id" : "http://38a84e26-af96-4261-a01d-8826484c880f",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e48d1fb4-2619-4f9b-8597-522cbd78f955",
+      "@type" : "sc:Canvas",
+      "label" : "Map 1",
+      "height" : 5682,
+      "width" : 7266,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f46b0929-0840-4ee9-8698-d250573bfb2f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523521.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022523521.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 5682,
+          "width" : 7266
+        },
+        "on" : "http://e48d1fb4-2619-4f9b-8597-522cbd78f955"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://nickd101.github.io/TrainingManifests/annotations/ee6a41282e66453cfa96b66c2de80a9a.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://08450fe3-3912-4063-9d88-a3fc7ecc1012",
+      "@type" : "sc:Canvas",
+      "label" : "Photo 1",
+      "height" : 2169,
+      "width" : 1450,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ea9c8788-2aea-4ae2-80f0-21340c541820",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_00000005AFF2.0x00016D/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_00000005AFF2.0x00016D",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 2169,
+          "width" : 1450
+        },
+        "on" : "http://08450fe3-3912-4063-9d88-a3fc7ecc1012"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://81dca920-bf02-4518-9a5e-ea5ee0324189",
+      "@type" : "sc:Canvas",
+      "label" : "Page 1",
+      "height" : 2169,
+      "width" : 1450,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://00220609-f702-44f7-9357-6dcaa50cd086",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_00000005AFF2.0x000170/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_00000005AFF2.0x000170",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 2169,
+          "width" : 1450
+        },
+        "on" : "http://81dca920-bf02-4518-9a5e-ea5ee0324189"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
