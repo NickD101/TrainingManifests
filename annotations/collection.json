@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://NickD101.github.io/TrainingManifests/annotations/ee6a41282e66453cfa96b66c2de80a9a.json" ],
+  "@id" : "https://NickD101.github.io/TrainingManifests/annotations/collection.json",
+  "label" : "All annotations loaded in NickD101/TrainingManifests project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
