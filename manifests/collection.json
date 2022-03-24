@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest4.json",
     "label" : "From Batum to Baghdad"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://NickD101.github.io/TrainingManifests/manifests/manifest3.json",
+    "label" : "From Batum to Baghdad"
   } ]
 }
